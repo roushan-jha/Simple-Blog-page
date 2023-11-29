@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
+:root {
+    --font1: 'Playfair Display', serif;
+    --font2: 'Roboto', sans-serif;
+    --font3: 'Open Sans', sans-serif;
+    --font4: 'Dancing Script', cursive;
+    --font5: 'Gabarito', cursive;
+    --m-color: rgb(246, 121, 76);
+
+}
+* {
+    margin:0px;
+    padding:0px;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+.max-width {
+    width:1050px;
+    margin:auto;
+}
+/* #nav-bar {
+    width:1050px;
+    margin:auto;   
+} */
+
+#nav-div {
+    display:flex;
+    justify-content: space-between;
+    height: 70px;
+    
+}
+
+.nav-left {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-left a:hover {
+    color: var(--m-color);
+}
+
+.nav-right {
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav-right ul {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right ul li a:hover {
+    color:var(--m-color);
+    transition:.1s;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    background-color: var(--m-color);
+    transition: .5s;
+}

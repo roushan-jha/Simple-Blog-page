@@ -1,0 +1,54 @@
+@media (576px <= width <= 756px) {
+
+    .max-width {
+        width:auto;
+        margin:auto;
+    }
+
+    .nav-left h2 {
+        font-size: 1.5rem;
+    }
+    
+    .nav-left a {
+        font-size: 1.4rem;
+    }
+
+    .nav-right ul li {
+        padding: 5px;
+        font-size: 1.4rem;
+    }
+
+    .top-section img{
+        width:400px;
+        margin:20px;
+        margin-top:50px;
+    }
+    .main-section {
+        /* background-color: yellow; */
+        width:auto;
+        /* margin:auto; */
+        padding:0px 10px;
+        height: auto;
+    }
+
+    .heading-section {
+        font-size: 2.2rem;
+        margin: 10px 0px;
+    }
+
+    .margin-bottom {
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+    }
+
+    .more-section {
+        font-size: 1.4rem;
+        padding:10px 0px;
+        padding-top:0px;
+        width:100vw;
+    }
+
+    /* .heading-section-2, .text-section-2 {
+        margin:10px;
+    } */
+}

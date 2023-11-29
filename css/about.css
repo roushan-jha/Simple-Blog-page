@@ -1,0 +1,39 @@
+.about-head-sec {
+    padding:10px;
+    margin:50px;
+}
+
+.about-head-sec h2 {
+    margin: 5px;
+    font-family: var(--font5);
+}
+
+.about-head-sec h4 {
+    font-family: var(--font4);
+    color: orange;
+}
+
+.about-content {
+    font-size:1.6rem;
+    font-family: var(--font3);
+}
+
+#sub-head-size {
+    font-size: 1.8rem;
+    font-family: var(--font2);
+    padding: 20px 0px;
+}
+
+.bottom-space {
+    margin-bottom: 35px;
+}
+/* .questions-section {
+    background-color: rgb(250, 240, 230);
+    height:50vh;
+    padding: 15px 20px;
+}
+
+.questions-section h2 {
+    font-size: 1.7rem;
+    font-family: var(--font5);
+} */

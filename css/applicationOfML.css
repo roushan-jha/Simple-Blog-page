@@ -1,0 +1,21 @@
+.application-sec {
+    padding:10px 0px;
+    margin:50px 0px;
+    font-size: 1.6rem;
+    font-family: var(--font3);
+}
+
+.application-sec h2 {
+    font-size: 1.8rem;
+    font-family: var(--font2);
+    padding:20px 0px;
+}
+
+.img-div {
+    display:flex;
+    justify-content: center;
+}
+
+#img-size {
+    width: 60vw;
+}

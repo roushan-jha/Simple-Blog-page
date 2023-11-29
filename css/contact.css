@@ -1,0 +1,46 @@
+.bg-color {
+    background-color: rgb(250, 240, 230);
+    height:60vh;
+}
+
+#form-section {
+    font-size: 1.8rem;
+    padding: 50px 0px;
+    height: 60vh;
+    font-family: var(--font2);
+}
+
+.e-name input {
+    width:25vw;
+    height: 1.8rem;
+}
+
+.e-email input {
+    width:25vw;
+    height: 1.8rem;
+}
+
+.e-name, .e-email {
+    padding:10px;
+    margin:10px;
+}
+
+#text-area {
+    padding:20px;
+    width: 38vw;
+    margin:10px;
+}
+
+#btn-send {
+    font-size: 1.2rem;
+    padding:5px;
+    border: 2px solid black;
+    border-radius:5px;
+    margin: 5px 0px;
+}
+
+#btn-send:hover {
+    cursor: pointer;
+    background-color: var(--m-color);
+    transition: .3s;
+}
